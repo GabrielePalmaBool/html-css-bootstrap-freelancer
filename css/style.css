@@ -1,0 +1,37 @@
+/*  Stili generali di pagina */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h2{ 
+    color: white;
+}
+
+/* ------------------- HEADER ------------------------------- */
+.background-head {
+    background-color: rgb(44, 62, 80);
+    min-height: 100px;
+}
+
+
+
+/* ------------------- MAIN ------------------------------- */
+
+.background-main {
+    background-color: rgb(26, 188, 156);
+    min-height: 400px;
+}
+
+.col{
+    background-color: white;
+}
+
+.col img {
+    width:100%;
+}
+/* ------------------- FOOTER ------------------------------- */
+
+
