@@ -20,11 +20,31 @@
     <!-- Sezione header -->
     <header>
 
-         <!-- backgroun black -->
-        <div class="background-head">
-            <h2>Header</h2>
-        </div>
+        <!-- Componente bootstrap -->
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">PROFILO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                      </li>
+                    </ul> 
+                  
+                </div>
+            </div>
+        </nav>
 
+        
     </header>
 
     <!-- Sezione main -->
@@ -37,17 +57,18 @@
             <div class="container ">
 
                 <!-- row 3 modalità: md(width: da 768px in su), sm(width: da 576px in su (fino a 767), xs(width: da tot px fino a 575px)-->
-                <div class="row row-cols-1 ">
+                <div class="row ">
 
                     <!-- col 1: con un padding di 10-->
                     <div class="col p-1">
+
                         <img src="img/img/avatar.svg" class="Logo1" alt="Logo">
 
                         <h2>START BOOTSTRAP</h2>
 
-                        <div class="line offset-sm-auto"></div>
+                        <div class="line"></div>
                         <i class="fa-solid fa-star"></i>
-                        <div class="line offset-sm-auto"></div>
+                        <div class="line"></div>
 
                         <h7>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h7>
                     </div>
@@ -68,30 +89,30 @@
 
                     <h2>PORTFOLIO</h2>
 
-                    <div class="line offset-sm-auto"></div>
+                    <div class="line"></div>
                     <i class="fa-solid fa-star"></i>
-                    <div class="line offset-sm-auto"></div>
+                    <div class="line"></div>
                 
 
                 </div>
 
                 <!-- col 1: con un padding di 10-->
-                <div class="col p-1">
+                <div class="col p-2">
                     <img src="img/img/cabin.png" class="Logo2" alt="Logo">
                 </div>
-                <div class="col p-1">
+                <div class="col p-2">
                     <img src="img/img/cake.png" class="Logo2" alt="Logo">
                 </div>
-                <div class="col p-1">
+                <div class="col p-2">
                     <img src="img/img/circus.png" class="Logo2" alt="Logo">
                 </div>
-                <div class="col p-1">
+                <div class="col p-2">
                     <img src="img/img/game.png" class="Logo2" alt="Logo">
                 </div>
-                <div class="col p-1">
+                <div class="col p-2">
                     <img src="img/img/safe.png" class="Logo2" alt="Logo">
                 </div>
-                <div class="col p-1">
+                <div class="col p-2">
                     <img src="img/img/submarine.png" class="Logo2" alt="Logo">
                 </div>
                 
@@ -111,9 +132,9 @@
 
                         <h2>ABOUT</h2>
 
-                        <div class="line offset-sm-auto"></div>
+                        <div class="line"></div>
                         <i class="fa-solid fa-star"></i>
-                        <div class="line offset-sm-auto"></div>
+                        <div class="line"></div>
                     
                     </div>
                    
@@ -149,9 +170,9 @@
 
                     <h2>CONTACT ME</h2>
 
-                    <div class="line offset-sm-auto"></div>
+                    <div class="line"></div>
                     <i class="fa-solid fa-star"></i>
-                    <div class="line offset-sm-auto"></div>
+                    <div class="line"></div>
                 
 
                 </div>
@@ -160,7 +181,7 @@
 
                     <form action="#" method="post"> 
 
-                        <input type="text" name="nome" class="form-control form-control-lg" placeholder="NOME" required>
+                        <input type="text" name="nome" class="form-control form-control-lg" placeholder="Name" required>
                         <div class="lineF"></div>
                         <input type="email" name="email"  class="form-control form-control-lg" placeholder="Email Address" required>
                         <div class="lineF"></div>

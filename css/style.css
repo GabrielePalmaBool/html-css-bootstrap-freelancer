@@ -12,13 +12,14 @@ h2{
 }
 
 /* ------------------- HEADER ------------------------------- */
-.background-head {
+
+.navbar-dark {
     background-color: rgb(44, 62, 80);
-    width:100%;
-    min-height: 100px;
 }
 
-
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
 
 /* ------------------- MAIN ------------------------------- */
 
@@ -60,7 +61,7 @@ h2{
 /* Sezione form */
 
 .lineF {
-    width: 100% - 15px;
+    width: calc(100% - 15px);
     height: 2px;
     border-radius: 20px;
     background-color: rgb(204, 204, 204);
@@ -105,7 +106,7 @@ h2{
     min-height: 400px;
 }
 
-.background-green h2, a, .fa-solid{ 
+.background-green h2, p, a, .fa-solid{ 
     color: white;
 }
 
@@ -116,10 +117,8 @@ h2{
 .background-green a{
     text-decoration: none;
     border: 2px solid white;
-    color: white;
     border-radius: 15px;
     cursor: pointer;
-    text-align: center;
     font-size: 15px;
     font-weight: bold;
     padding: 10px 30px 10px 30px;
@@ -136,7 +135,7 @@ h2{
 .background-green h7 {
     display: block;
     margin: 20px 0px 20px 0px;
-    font-size:30px;
+    font-size:20px;
 }
 
 /* Sezione container blue */
