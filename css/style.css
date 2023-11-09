@@ -22,6 +22,45 @@ h2{
 
 /* ------------------- MAIN ------------------------------- */
 
+
+/* Sezione generica */
+.line {
+    width: 70px;
+    height: 5px;
+    border-radius: 20px;
+    display:inline-block;
+}
+
+.fa-solid {
+    font-size: 20px;
+}
+
+.col-12 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width:100%;
+    border-radius: 15px;
+}
+
+/* Sezione container white */
+
+.white {
+    margin-bottom:50px
+}
+
+.white .line{
+    background-color: black;
+}
+
+.white .fa-solid{ 
+    color: black;
+}
+
+
+/* Sezione container green */
 .background-green {
     background-color: rgb(26, 188, 156);
     width:100%;
@@ -32,9 +71,8 @@ h2{
     color: white;
 }
 
-
-.background-green .fa-solid {
-    font-size: 20px;
+.background-green .line {
+    background-color: white;
 }
 
 .background-green a{
@@ -49,27 +87,9 @@ h2{
     padding: 10px 30px 10px 30px;
 }
 
-.background-green a:hover {
+.background-green a:hover, .background-green a:hover .fa-download{
     color: black;
 }
 
-.line {
-    background-color: white;
-    width: 70px;
-    height: 5px;
-    border-radius: 20px;
-    display:inline-block;
-}
-
-
-.col-12 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-img {
-    width:100%;
-    border-radius: 15px;
-}
 /* ------------------- FOOTER ------------------------------- */
 
