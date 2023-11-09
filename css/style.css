@@ -40,10 +40,7 @@ h2{
     margin-bottom: 20px;
 }
 
-img {
-    width:100%;
-    border-radius: 15px;
-}
+
 
 /* Sezione container white */
 
@@ -63,7 +60,7 @@ img {
 /* Sezione form */
 
 .lineF {
-    width: 100%;
+    width: 100% - 15px;
     height: 2px;
     border-radius: 20px;
     background-color: rgb(204, 204, 204);
@@ -92,6 +89,16 @@ img {
 
 
 /* Sezione container green */
+
+.Logo1 {
+    width:20%;
+}
+
+.Logo2 {
+    width:100%;
+    border-radius: 15px;
+}
+
 .background-green {
     background-color: rgb(26, 188, 156);
     width:100%;
@@ -122,6 +129,49 @@ img {
     color: black;
 }
 
+.background-green .col {
+    text-align: center;
+}
 
+.background-green h7 {
+    display: block;
+    margin: 20px 0px 20px 0px;
+    font-size:30px;
+}
+
+/* Sezione container blue */
+.background-blue {
+    background-color: rgb(58, 84, 109);
+    width:100%;
+}
+
+.background-blue h4, h7{ 
+    color: white;
+    font-weight: bold;
+}
+
+.background-blue .fa-brands{ 
+    color: white;
+    font-size: 30px;
+}
+
+.background-blue .col .Content{
+    text-align: center;
+    margin-top:70px;
+}
+
+.background-blue a{
+    text-decoration: none;
+    color: rgb(26, 188, 156);
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.background-blue a:hover{
+    color: black;
+}
 /* ------------------- FOOTER ------------------------------- */
 
