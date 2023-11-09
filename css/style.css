@@ -20,18 +20,14 @@ h2{
 
 /* ------------------- MAIN ------------------------------- */
 
-.background-main {
+.background-main{
     background-color: rgb(26, 188, 156);
     min-height: 400px;
 }
 
-.col{
-    background-color: white;
-}
 
 .col img {
     width:100%;
 }
 /* ------------------- FOOTER ------------------------------- */
-
 
