@@ -7,14 +7,14 @@
 
 
 h2{ 
-    color: white;
     font-size: 40px;
-    margin-bottom: 40px;
+    margin: 20px 0 10px 0px;
 }
 
 /* ------------------- HEADER ------------------------------- */
 .background-head {
     background-color: rgb(44, 62, 80);
+    width:100%;
     min-height: 100px;
 }
 
@@ -22,34 +22,49 @@ h2{
 
 /* ------------------- MAIN ------------------------------- */
 
-.background-main {
+.background-green {
     background-color: rgb(26, 188, 156);
+    width:100%;
     min-height: 400px;
 }
 
-.fa-solid {
+.background-green h2, a, .fa-solid{ 
     color: white;
-    position: absolute;
-    top: 10%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+}
+
+
+.background-green .fa-solid {
     font-size: 20px;
+}
+
+.background-green a{
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+}
+
+.background-green a:hover {
+    color: black;
 }
 
 .line {
     background-color: white;
-    width: 150px;
+    width: 70px;
     height: 5px;
     border-radius: 20px;
-    position: absolute;
-    top: 80%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+    display:inline-block;
 }
+
 
 .col-12 {
     text-align: center;
-    position: relative;
+    margin-bottom: 20px;
 }
 
 img {
