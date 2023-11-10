@@ -13,8 +13,8 @@ h2{
 
 /* ------------------- HEADER ------------------------------- */
 
-.navbar-dark {
-    background-color: rgb(44, 62, 80);
+#dark {
+    background-color: rgb(44, 62, 80)!important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
